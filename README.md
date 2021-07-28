@@ -2,7 +2,7 @@
 
 ## Overview 
 
-A Movie Cart React Application developed using React and express 
+A Movie Cart Web Application developed using React and express 
 
 ## Running the project
 
