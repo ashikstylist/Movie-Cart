@@ -18,6 +18,7 @@ let corsOptions = {
 app.use(cors(corsOptions));
 app.use(express.json());
 
+
 app.get('/api', function(req, res) {
     var url = 'https://api.themoviedb.org/3/discover/movie?api_key=3d485e84c7ae1856fb134fefd31ed2df&language=en-US&sort_by=popularity.desc&include_video=false&page=1';
     fetch(url)
